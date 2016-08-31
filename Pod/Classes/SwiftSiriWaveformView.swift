@@ -77,6 +77,12 @@ open class SwiftSiriWaveformView : UIView {
         super.init(coder: aDecoder)
     }
     
+    public func update(with level: CGFloat) {
+        self.phase += self.phaseShift
+        self.amplitude = fmax(level, self.idleAmplitude)
+        self.setNeedsDisplay()
+    }
+    
     override open func draw(_ rect: CGRect) {
         // Convenience function to draw the wave
         func drawWave(_ index:Int, maxAmplitude:CGFloat, normedAmplitude:CGFloat) {
