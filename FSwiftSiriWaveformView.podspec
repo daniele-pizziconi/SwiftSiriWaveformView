@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.author           = { "Alankar Misra" => "alankarmisra@gmail.com" }
   s.source           = { :git => "https://github.com/daniele-pizziconi/SwiftSiriWaveformView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/alankarmisra_'
+  s.swift_version = "4.2"
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
