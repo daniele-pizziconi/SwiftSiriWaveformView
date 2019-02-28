@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'SwiftSiriWaveformView/*.swift'
+  s.source_files = 'SwiftSiriWaveformView/SwiftSiriWaveformView.swift'
 
   # s.public_header_files = 'SwiftSiriWaveformView/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
