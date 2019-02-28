@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "FSwiftSiriWaveformView"
-  s.version          = "0.0.3"
+  s.version          = "0.0.4"
   s.summary          = "UIView subclass that reproduces the waveform effect seen in Siri on iOS 7 / iOS 8"
   s.description      = <<-DESC
                        SwiftSiriWaveformView is a UIView subclass that reproduces the waveform effect seen in Siri on iOS 7 / iOS 8.
