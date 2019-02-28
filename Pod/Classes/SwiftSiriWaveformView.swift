@@ -98,7 +98,7 @@ open class SwiftSiriWaveformView : UIView {
             for x in stride(from: 0, to: self.bounds.width + self.density, by: self.density) {
                 // Parabolic scaling
                 let scaling = -pow(1 / mid * (x - mid), 2) + 1
-                let y = scaling * maxAmplitude * normedAmplitude * sin(CGFloat(2 * M_PI) * self.frequency * (x / self.bounds.width)  + self.phase) + self.bounds.height/2.0
+                let y = scaling * maxAmplitude * normedAmplitude * sin(2 * CGFloat.pi * self.frequency * (x / self.bounds.width)  + self.phase) + self.bounds.height/2.0
                 if x == 0 {
                     path.move(to: CGPoint(x:x, y:y))
                 } else {
