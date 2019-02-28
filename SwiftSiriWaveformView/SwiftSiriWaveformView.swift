@@ -1,6 +1,6 @@
 //
 //  SwiftSiriWaveformView.swift
-//  Pods
+//  SwiftSiriWaveformView
 //
 //  Created by Alankar Misra on 7/23/15.
 //
