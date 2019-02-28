@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "SwiftSiriWaveformView"
+  s.name             = "FSwiftSiriWaveformView"
   s.version          = "0.0.4"
   s.summary          = "UIView subclass that reproduces the waveform effect seen in Siri on iOS 7 / iOS 8"
   s.description      = <<-DESC
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'SwiftSiriWaveformView/SwiftSiriWaveformView.swift'
+  s.source_files = 'FSwiftSiriWaveformView/FSwiftSiriWaveformView.swift'
 
   # s.public_header_files = 'SwiftSiriWaveformView/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

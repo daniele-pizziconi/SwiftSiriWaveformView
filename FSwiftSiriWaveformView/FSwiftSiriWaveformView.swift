@@ -1,6 +1,6 @@
 //
-//  SwiftSiriWaveformView.swift
-//  SwiftSiriWaveformView
+//  FSwiftSiriWaveformView.swift
+//  FSwiftSiriWaveformView
 //
 //  Created by Alankar Misra on 7/23/15.
 //
@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class SwiftSiriWaveformView : UIView {
+open class FSwiftSiriWaveformView : UIView {
     /*
     * The frequency of the sinus wave. The higher the value, the more sinus wave peaks you will have.
     * Default: 1.5
